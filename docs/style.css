@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0d2b4f, #020b18);
+  color: #eaf4ff;
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  border-radius: 22px;
+  box-shadow: 0 0 40px rgba(80,150,255,0.5);
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+  color: #6bb7ff;
+}
+
+.tagline {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.author {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 35px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 16px 34px;
+  background: linear-gradient(135deg, #3a8dff, #6bb7ff);
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(60,130,255,0.4);
+  transition: transform 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+}
+
+/* HOW TO */
+.howto {
+  max-width: 800px;
+  margin: 60px auto;
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.howto h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.steps {
+  text-align: left;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.step span {
+  width: 32px;
+  height: 32px;
+  background: #3a8dff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+/* FOOTER */
+footer {
+  padding: 30px;
+  font-size: 13px;
+  opacity: 0.6;
+}
