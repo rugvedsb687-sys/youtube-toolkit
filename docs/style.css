@@ -103,3 +103,58 @@ footer {
   font-size: 13px;
   color: #666;
 }
+/* 📱 MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 60px 18px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 18px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .tagline {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+
+  .author {
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+
+  .download-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .howto {
+    margin: 40px 16px;
+    padding: 28px 22px;
+  }
+
+  .howto h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .step {
+    font-size: 15px;
+  }
+
+  footer {
+    padding: 24px 12px;
+    font-size: 12px;
+  }
+}
+
